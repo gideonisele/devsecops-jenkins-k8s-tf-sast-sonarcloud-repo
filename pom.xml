@@ -8,13 +8,6 @@
 	<version>1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-<profiles>
-    <profile>
-        <id>jdk-17</id>
-        <activation>
-            <activeByDefault>false</activeByDefault>
-            <jdk>17</jdk>
-        </activation>
         <properties>
             <maven.compiler.source>17</maven.compiler.source>
             <maven.compiler.target>17</maven.compiler.target>
