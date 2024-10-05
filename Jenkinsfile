@@ -6,7 +6,7 @@ pipeline {
    stages{
     stage('Checkout') {
 	    steps {
-		   git URL: 'https://github.com/gideonisele/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo.git'
+		   git url: 'https://github.com/gideonisele/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo.git'
 	    }
     }
     stage('Build') {
